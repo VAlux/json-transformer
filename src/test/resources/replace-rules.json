@@ -1,0 +1,12 @@
+[
+  {
+    "operation": "REPLACE_REGEX",
+    "path": "$.*",
+    "from": "itude\"",
+    "to": "123\""
+  },
+  {
+    "operation": "DELETE",
+    "path": "$..picture"
+  }
+]
